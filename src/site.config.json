@@ -53,6 +53,15 @@
       "y": 368
     },
     {
+      "id": "centennial",
+      "name": "Centennial Village",
+      "type": "Housing",
+      "area": "West shore of Lake Osceola",
+      "why": "Where the day starts and ends. Residents grab a charger on the way out and drop it back on the way home, without a walk across campus.",
+      "x": 150,
+      "y": 318
+    },
+    {
       "id": "wellness",
       "name": "Herbert Wellness Center",
       "type": "Fitness",

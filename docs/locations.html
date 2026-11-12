@@ -38,7 +38,7 @@
 <section class="page-head section-navy">
   <div class="wrap">
     <h1>Where your day already goes.</h1>
-    <p class="lede">We're launching on the Coral Gables campus with five planned stations, each picked for how students actually move around. Select a stop to see why it made the list.</p>
+    <p class="lede">We're launching on the Coral Gables campus with six planned stations, each picked for how students actually move around. Select a stop to see why it made the list.</p>
   </div>
 </section>
 
@@ -49,6 +49,7 @@
         <button type="button" class="filter" data-filter="Study" aria-pressed="false">Study</button>
         <button type="button" class="filter" data-filter="Student life" aria-pressed="false">Student life</button>
         <button type="button" class="filter" data-filter="Class" aria-pressed="false">Class</button>
+        <button type="button" class="filter" data-filter="Housing" aria-pressed="false">Housing</button>
         <button type="button" class="filter" data-filter="Fitness" aria-pressed="false">Fitness</button>
     </div>
     <div class="finder-grid">
@@ -97,6 +98,13 @@
             <path class="pin-bolt" d="M2-9-6.5 1.6h5.2L-2 9 6.5-1.6H1.3z"></path>
             <text class="pin-name" y="-24">Whitten</text>
           </g>
+          <g class="pin" data-station="centennial" data-type="Housing" transform="translate(150 318)" tabindex="0" role="button" aria-label="Centennial Village, planned station">
+            <circle class="pin-hit" r="30"></circle>
+            <circle class="pin-halo" r="20"></circle>
+            <circle class="pin-dot" r="15"></circle>
+            <path class="pin-bolt" d="M2-9-6.5 1.6h5.2L-2 9 6.5-1.6H1.3z"></path>
+            <text class="pin-name" y="-24">Centennial</text>
+          </g>
           <g class="pin" data-station="wellness" data-type="Fitness" transform="translate(254 437)" tabindex="0" role="button" aria-label="Herbert Wellness Center, planned station">
             <circle class="pin-hit" r="30"></circle>
             <circle class="pin-halo" r="20"></circle>
@@ -135,6 +143,13 @@
             <span class="station-meta">Class · East campus · Planned</span>
           </button>
           <p class="station-why">A classroom building on the far side of campus from the lake, so students there don't have to cross campus to return a charger.</p>
+        </li>
+        <li class="station" id="centennial" data-station="centennial" data-type="Housing">
+          <button type="button" class="station-btn" aria-pressed="false">
+            <span class="station-name">Centennial Village</span>
+            <span class="station-meta">Housing · West shore of Lake Osceola · Planned</span>
+          </button>
+          <p class="station-why">Where the day starts and ends. Residents grab a charger on the way out and drop it back on the way home, without a walk across campus.</p>
         </li>
         <li class="station" id="wellness" data-station="wellness" data-type="Fitness">
           <button type="button" class="station-btn" aria-pressed="false">

@@ -53,24 +53,6 @@
       "y": 368
     },
     {
-      "id": "hecht",
-      "name": "Hecht Residential College",
-      "type": "Housing",
-      "area": "West of the lake",
-      "why": "Where the day starts and ends. Residents can return a charger on the way home instead of walking back across campus.",
-      "x": 131,
-      "y": 322
-    },
-    {
-      "id": "mahoney",
-      "name": "Mahoney Residential College",
-      "type": "Housing",
-      "area": "South campus",
-      "why": "Gives south campus residents a station close to home, so the network reaches both ends of a typical day.",
-      "x": 492,
-      "y": 586
-    },
-    {
       "id": "wellness",
       "name": "Herbert Wellness Center",
       "type": "Fitness",

@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Planned locations | PowerUp</title>
+<meta name="description" content="Planned PowerUp charger stations on the University of Miami Coral Gables campus.">
+<meta name="theme-color" content="#010E2E">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="logo-link" href="index.html" aria-label="PowerUp home">
+      <img src="assets/img/logo-192.png" srcset="assets/img/logo-192.png 1x, assets/img/logo-384.png 2x" width="88" height="88" alt="PowerUp logo">
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="rent.html">How it works</a></li>
+        <li><a href="locations.html" aria-current="page">Locations</a></li>
+        <li><a href="venues.html">Partners</a></li>
+        <li><a href="help.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="scroll-battery" aria-hidden="true"><span class="scroll-battery-fill"></span></div>
+  </div>
+</header>
+<main id="main">
+<section class="page-head section-navy">
+  <div class="wrap">
+    <h1>Where your day already goes.</h1>
+    <p class="lede">We're launching on the Coral Gables campus with seven planned stations, each picked for how students actually move around. Select a stop to see why it made the list.</p>
+  </div>
+</section>
+
+<section class="finder section-light">
+  <div class="wrap">
+    <div class="filters" role="group" aria-label="Filter stations by type">
+        <button type="button" class="filter" data-filter="All" aria-pressed="true">All</button>
+        <button type="button" class="filter" data-filter="Study" aria-pressed="false">Study</button>
+        <button type="button" class="filter" data-filter="Student life" aria-pressed="false">Student life</button>
+        <button type="button" class="filter" data-filter="Class" aria-pressed="false">Class</button>
+        <button type="button" class="filter" data-filter="Housing" aria-pressed="false">Housing</button>
+        <button type="button" class="filter" data-filter="Fitness" aria-pressed="false">Fitness</button>
+    </div>
+    <div class="finder-grid">
+      <figure class="map-figure">
+        <svg class="campus-map" viewBox="0 0 1000 700" role="group" aria-label="Schematic map of the University of Miami Coral Gables campus with planned PowerUp stations">
+          <rect width="1000" height="700" class="map-land"/>
+          <g class="map-roads">
+            <path d="M0 170C160 150 300 165 370 190S520 190 640 215 860 235 1000 330"/>
+            <path d="M0 380C60 420 170 430 300 470S430 520 470 540"/>
+            <path d="M462 410C470 500 455 640 470 700"/>
+            <path d="M462 480C620 530 820 560 1000 600"/>
+          </g>
+          <path class="map-water" d="M160 325C190 290 260 280 320 300 380 318 420 335 395 372 380 395 420 420 460 455 520 490 640 500 780 530 880 550 940 565 1000 580L1000 602C900 590 800 562 690 540 590 520 500 515 440 475 400 446 370 420 345 425 300 440 240 440 200 415 170 395 140 355 160 325Z"/>
+          <text class="map-label" x="270" y="355">Lake Osceola</text>
+          <text class="map-road-label" x="690" y="205" transform="rotate(10 690 205)">Memorial Drive</text>
+          <text class="map-road-label" x="780" y="590" transform="rotate(10 780 590)">University Drive</text>
+          <text class="map-road-label" x="60" y="405" transform="rotate(14 60 405)">Dickinson Drive</text>
+          <text class="map-road-label" x="452" y="694" transform="rotate(-88 452 694)">Stanford Drive</text>
+          <g class="map-compass" transform="translate(930 80) rotate(45)"><path d="M0-30 10 8 0 2-10 8Z"/><text x="0" y="-36" text-anchor="middle">N</text></g>
+          
+          <g class="pin" data-station="richter" data-type="Study" transform="translate(551 253)" tabindex="0" role="button" aria-label="Richter Library, planned station">
+            <circle class="pin-hit" r="30"></circle>
+            <circle class="pin-halo" r="20"></circle>
+            <circle class="pin-dot" r="15"></circle>
+            <path class="pin-bolt" d="M2-9-6.5 1.6h5.2L-2 9 6.5-1.6H1.3z"></path>
+            <text class="pin-name" y="-24">Richter</text>
+          </g>
+          <g class="pin" data-station="shalala" data-type="Student life" transform="translate(456 356)" tabindex="0" role="button" aria-label="Shalala Student Center, planned station">
+            <circle class="pin-hit" r="30"></circle>
+            <circle class="pin-halo" r="20"></circle>
+            <circle class="pin-dot" r="15"></circle>
+            <path class="pin-bolt" d="M2-9-6.5 1.6h5.2L-2 9 6.5-1.6H1.3z"></path>
+            <text class="pin-name" y="-24">Shalala</text>
+          </g>
+          <g class="pin" data-station="merrick" data-type="Class" transform="translate(652 381)" tabindex="0" role="button" aria-label="Merrick Building, planned station">
+            <circle class="pin-hit" r="30"></circle>
+            <circle class="pin-halo" r="20"></circle>
+            <circle class="pin-dot" r="15"></circle>
+            <path class="pin-bolt" d="M2-9-6.5 1.6h5.2L-2 9 6.5-1.6H1.3z"></path>
+            <text class="pin-name" y="-24">Merrick</text>
+          </g>
+          <g class="pin" data-station="whitten" data-type="Class" transform="translate(775 368)" tabindex="0" role="button" aria-label="Whitten Learning Center, planned station">
+            <circle class="pin-hit" r="30"></circle>
+            <circle class="pin-halo" r="20"></circle>
+            <circle class="pin-dot" r="15"></circle>
+            <path class="pin-bolt" d="M2-9-6.5 1.6h5.2L-2 9 6.5-1.6H1.3z"></path>
+            <text class="pin-name" y="-24">Whitten</text>
+          </g>
+          <g class="pin" data-station="hecht" data-type="Housing" transform="translate(131 322)" tabindex="0" role="button" aria-label="Hecht Residential College, planned station">
+            <circle class="pin-hit" r="30"></circle>
+            <circle class="pin-halo" r="20"></circle>
+            <circle class="pin-dot" r="15"></circle>
+            <path class="pin-bolt" d="M2-9-6.5 1.6h5.2L-2 9 6.5-1.6H1.3z"></path>
+            <text class="pin-name" y="-24">Hecht</text>
+          </g>
+          <g class="pin" data-station="mahoney" data-type="Housing" transform="translate(492 586)" tabindex="0" role="button" aria-label="Mahoney Residential College, planned station">
+            <circle class="pin-hit" r="30"></circle>
+            <circle class="pin-halo" r="20"></circle>
+            <circle class="pin-dot" r="15"></circle>
+            <path class="pin-bolt" d="M2-9-6.5 1.6h5.2L-2 9 6.5-1.6H1.3z"></path>
+            <text class="pin-name" y="-24">Mahoney</text>
+          </g>
+          <g class="pin" data-station="wellness" data-type="Fitness" transform="translate(254 437)" tabindex="0" role="button" aria-label="Herbert Wellness Center, planned station">
+            <circle class="pin-hit" r="30"></circle>
+            <circle class="pin-halo" r="20"></circle>
+            <circle class="pin-dot" r="15"></circle>
+            <path class="pin-bolt" d="M2-9-6.5 1.6h5.2L-2 9 6.5-1.6H1.3z"></path>
+            <text class="pin-name" y="-24">Wellness</text>
+          </g>
+        </svg>
+        <figcaption>Schematic only, not to scale. Station positions are approximate.</figcaption>
+      </figure>
+      <ul class="station-list">
+        <li class="station" id="richter" data-station="richter" data-type="Study">
+          <button type="button" class="station-btn" aria-pressed="false">
+            <span class="station-name">Richter Library</span>
+            <span class="station-meta">Study · Center of campus · Planned</span>
+          </button>
+          <p class="station-why">Long study sessions drain phones, and nobody wants to give up a good seat to hunt for an outlet.</p>
+        </li>
+        <li class="station" id="shalala" data-station="shalala" data-type="Student life">
+          <button type="button" class="station-btn" aria-pressed="false">
+            <span class="station-name">Shalala Student Center</span>
+            <span class="station-meta">Student life · On Lake Osceola · Planned</span>
+          </button>
+          <p class="station-why">The crossroads of campus. Students pass through between classes, so it is the easiest place to grab a charger or drop one off.</p>
+        </li>
+        <li class="station" id="merrick" data-station="merrick" data-type="Class">
+          <button type="button" class="station-btn" aria-pressed="false">
+            <span class="station-name">Merrick Building</span>
+            <span class="station-meta">Class · Business school area · Planned</span>
+          </button>
+          <p class="station-why">Back-to-back classes leave no time to sit by an outlet. A station on the way into class solves it in seconds.</p>
+        </li>
+        <li class="station" id="whitten" data-station="whitten" data-type="Class">
+          <button type="button" class="station-btn" aria-pressed="false">
+            <span class="station-name">Whitten Learning Center</span>
+            <span class="station-meta">Class · East campus · Planned</span>
+          </button>
+          <p class="station-why">A classroom building on the far side of campus from the lake, so students there don't have to cross campus to return a charger.</p>
+        </li>
+        <li class="station" id="hecht" data-station="hecht" data-type="Housing">
+          <button type="button" class="station-btn" aria-pressed="false">
+            <span class="station-name">Hecht Residential College</span>
+            <span class="station-meta">Housing · West of the lake · Planned</span>
+          </button>
+          <p class="station-why">Where the day starts and ends. Residents can return a charger on the way home instead of walking back across campus.</p>
+        </li>
+        <li class="station" id="mahoney" data-station="mahoney" data-type="Housing">
+          <button type="button" class="station-btn" aria-pressed="false">
+            <span class="station-name">Mahoney Residential College</span>
+            <span class="station-meta">Housing · South campus · Planned</span>
+          </button>
+          <p class="station-why">Gives south campus residents a station close to home, so the network reaches both ends of a typical day.</p>
+        </li>
+        <li class="station" id="wellness" data-station="wellness" data-type="Fitness">
+          <button type="button" class="station-btn" aria-pressed="false">
+            <span class="station-name">Herbert Wellness Center</span>
+            <span class="station-meta">Fitness · Dickinson Drive · Planned</span>
+          </button>
+          <p class="station-why">Music, workout tracking and the walk home all run on a phone that has already been through a full day of class.</p>
+        </li>
+      </ul>
+    </div>
+    <p class="filter-empty" hidden>No stations of that type yet.</p>
+  </div>
+</section>
+
+<section class="section-navy coming">
+  <div class="wrap next-grid">
+    <h2>Next stop: the places around campus.</h2>
+    <div>
+      <p class="section-lede">After campus, we're bringing stations to participating cafes, restaurants and nightlife near the University of Miami, so the charger you grab after class can come with you to dinner.</p>
+      <div class="actions"><a class="btn btn-mint" href="venues.html#host"><span>Run a business near campus?</span></a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-mint next-city">
+  <div class="wrap next-grid">
+    <h2>Think we missed a spot?</h2>
+    <div>
+      <p class="section-lede">If your building should have a station, tell us. If you run the space, we'd really like to talk.</p>
+      <div class="actions">
+        <a class="btn btn-navy" href="venues.html#host"><span>Host a station</span></a>
+        <a class="btn btn-outline" href="contact.html"><span>Suggest a location</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <a class="footer-logo" href="index.html" aria-label="PowerUp home">
+      <img src="assets/img/logo-192.png" width="112" height="112" alt="PowerUp logo" loading="lazy">
+    </a>
+    <nav aria-label="Footer">
+      <ul class="footer-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rent.html">How it works</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="venues.html">Partners</a></li>
+        <li><a href="help.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="footer-contact">
+      <p class="footer-tagline">Portable charging, wherever campus life takes you.</p>
+      <p><a class="email-text" href="mailto:powerup@gmail.com">powerup@gmail.com</a></p>
+      <p>University of Miami, Coral Gables, FL</p>
+    </div>
+  </div>
+  <div class="wrap footer-note">
+    <p>PowerUp is a student startup concept created for BTE 210 at the University of Miami. Stations shown are planned locations. PowerUp is not affiliated with or endorsed by the University of Miami.</p>
+  </div>
+</footer>
+<script>window.POWERUP = {"pricing":{"isProposed":false,"hourly":2,"maxHours":24,"lateHourly":5,"lateMaxHours":48,"appMonthly":10,"studentFreeMinutes":30},"contact":{"email":"powerup@gmail.com","isPlaceholder":false}};</script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

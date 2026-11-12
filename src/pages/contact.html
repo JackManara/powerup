@@ -1,0 +1,35 @@
+<section class="page-head section-navy">
+  <div class="wrap">
+    <h1>Talk to us.</h1>
+    <p class="lede">Questions, a station suggestion, or an idea for your building: we want to hear it.</p>
+  </div>
+</section>
+
+<section class="section-light form-section">
+  <div class="wrap form-grid">
+    <div class="contact-info">
+      <h2 class="h3">Email</h2>
+      <p>{{EMAIL_BLOCK}}</p>
+      <h2 class="h3">Where we are</h2>
+      <p>{{LOCATION}}</p>
+      <h2 class="h3">Venue or student organization?</h2>
+      <p><a href="venues.html#host">Use the partner form</a> so we have the details we need.</p>
+    </div>
+    <form class="pu-form pu-form-light" data-form="Website message" novalidate>
+      <div class="field"><label for="c-name">Your name</label><input id="c-name" name="name" required autocomplete="name"><p class="err" hidden>Enter your name.</p></div>
+      <div class="field"><label for="c-email">Email</label><input id="c-email" name="email" type="email" required autocomplete="email"><p class="err" hidden>Enter a valid email address.</p></div>
+      <div class="field"><label for="c-msg">Message</label><textarea id="c-msg" name="message" rows="5" required></textarea><p class="err" hidden>Add a short message.</p></div>
+      <button class="btn btn-navy" type="submit"><span>Send message</span></button>
+      <p class="form-status" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<section class="founders section-navy">
+  <div class="wrap">
+    <h2>The founders</h2>
+    <ul class="founder-names">
+        {{FOUNDERS}}
+    </ul>
+  </div>
+</section>

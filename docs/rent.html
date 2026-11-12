@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How it works and pricing | PowerUp</title>
+<meta name="description" content="How to find, scan, charge and return a PowerUp portable charger, plus pricing.">
+<meta name="theme-color" content="#010E2E">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="logo-link" href="index.html" aria-label="PowerUp home">
+      <img src="assets/img/logo-192.png" srcset="assets/img/logo-192.png 1x, assets/img/logo-384.png 2x" width="88" height="88" alt="PowerUp logo">
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="rent.html" aria-current="page">How it works</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="venues.html">Partners</a></li>
+        <li><a href="help.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="scroll-battery" aria-hidden="true"><span class="scroll-battery-fill"></span></div>
+  </div>
+</header>
+<main id="main">
+<section class="page-head section-navy">
+  <div class="wrap">
+    <h1>Rent it. Charge it. Drop it anywhere.</h1>
+    <p class="lede">No cords to remember and no outlet to camp next to. Here's the whole thing, start to finish.</p>
+  </div>
+</section>
+
+<section class="section-light">
+  <div class="wrap">
+    <ol class="steps steps-wide">
+      <li><h2 class="h3">Find a station</h2><p>Open the PowerUp app to see stations near you and which ones have chargers ready. Every station is somewhere you'd already walk past.</p></li>
+      <li><h2 class="h3">Scan to rent</h2><p>Scan the QR code on the station and see the price before you confirm payment in the app. A fully charged unit releases from its slot.</p></li>
+      <li><h2 class="h3">Charge on the move</h2><p>Each charger has built-in cables, so there's nothing else to bring. Track your rental live in the app, and you'll get a reminder before your time runs out.</p></li>
+      <li><h2 class="h3">Return anywhere</h2><p>Slide it into an open slot at any PowerUp station. Your rental ends as soon as the station detects it, and the app confirms.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="pricing" class="pricing section-navy">
+  <div class="wrap">
+    <div class="pricing-head">
+      <h2>Simple pricing. You see it before you pay.</h2>
+      
+    </div>
+    <div class="price-grid">
+      <div class="price-hero">
+        <p class="plan-price">$2 <small>per hour</small></p>
+        <p class="price-offer">Students: your first 30 minutes are free on your first rental.</p>
+      </div>
+      <dl class="rules">
+        <div><dt>App access</dt><dd>Free for your first month, then $10 a month</dd></div>
+        <div><dt>Longest rental</dt><dd>24 hours, so never more than $48</dd></div>
+        <div><dt>Late after 24 hours</dt><dd>$5 for each extra hour</dd></div>
+        <div><dt>Not returned</dt><dd>Late fees stop at $240 after 48 more hours. At that point the charger counts as not returned, and the fee covers replacing it.</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="calc section-mint">
+  <div class="wrap calc-grid">
+    <div>
+      <h2>What will my rental cost?</h2>
+      <p class="section-lede">Slide to how long you'll keep it.</p>
+      <form class="calc-form" data-calc>
+        <label for="calc-hours">Keep it for <output for="calc-hours" data-hours-out>3 hours</output></label>
+        <input id="calc-hours" type="range" min="1" max="72" value="3">
+        <label class="check"><input id="calc-first" type="checkbox"> I'm a student renting for the first time</label>
+      </form>
+    </div>
+    <div class="calc-result" aria-live="polite">
+      <p class="calc-verdict" data-calc-total>$6</p>
+      <div class="calc-lines">
+        <p><span>Rental</span><b data-calc-rental>$6</b></p>
+        <p data-calc-free-row hidden><span>First 30 minutes free</span><b data-calc-free>-$1</b></p>
+        <p data-calc-late-row hidden><span>Late fees</span><b data-calc-late>$0</b></p>
+      </div>
+      <p class="calc-note" data-calc-note>Return it within 24 hours and there are no late fees.</p>
+      <p class="calc-app">Plus app access: free for your first month, then $10 a month.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <a class="footer-logo" href="index.html" aria-label="PowerUp home">
+      <img src="assets/img/logo-192.png" width="112" height="112" alt="PowerUp logo" loading="lazy">
+    </a>
+    <nav aria-label="Footer">
+      <ul class="footer-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rent.html">How it works</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="venues.html">Partners</a></li>
+        <li><a href="help.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="footer-contact">
+      <p class="footer-tagline">Portable charging, wherever campus life takes you.</p>
+      <p><a class="email-text" href="mailto:powerup@gmail.com">powerup@gmail.com</a></p>
+      <p>University of Miami, Coral Gables, FL</p>
+    </div>
+  </div>
+  <div class="wrap footer-note">
+    <p>PowerUp is a student startup concept created for BTE 210 at the University of Miami. Stations shown are planned locations. PowerUp is not affiliated with or endorsed by the University of Miami.</p>
+  </div>
+</footer>
+<script>window.POWERUP = {"pricing":{"isProposed":false,"hourly":2,"maxHours":24,"lateHourly":5,"lateMaxHours":48,"appMonthly":10,"studentFreeMinutes":30},"contact":{"email":"powerup@gmail.com","isPlaceholder":false}};</script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

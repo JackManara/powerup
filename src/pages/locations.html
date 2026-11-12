@@ -1,0 +1,62 @@
+<section class="page-head section-navy">
+  <div class="wrap">
+    <h1>Where your day already goes.</h1>
+    <p class="lede">We're launching on the Coral Gables campus with {{STATION_COUNT}} planned stations, each picked for how students actually move around. Select a stop to see why it made the list.</p>
+  </div>
+</section>
+
+<section class="finder section-light">
+  <div class="wrap">
+    <div class="filters" role="group" aria-label="Filter stations by type">
+        {{STATION_FILTERS}}
+    </div>
+    <div class="finder-grid">
+      <figure class="map-figure">
+        <svg class="campus-map" viewBox="0 0 1000 700" role="group" aria-label="Schematic map of the University of Miami Coral Gables campus with planned PowerUp stations">
+          <rect width="1000" height="700" class="map-land"/>
+          <g class="map-roads">
+            <path d="M0 170C160 150 300 165 370 190S520 190 640 215 860 235 1000 330"/>
+            <path d="M0 380C60 420 170 430 300 470S430 520 470 540"/>
+            <path d="M462 410C470 500 455 640 470 700"/>
+            <path d="M462 480C620 530 820 560 1000 600"/>
+          </g>
+          <path class="map-water" d="M160 325C190 290 260 280 320 300 380 318 420 335 395 372 380 395 420 420 460 455 520 490 640 500 780 530 880 550 940 565 1000 580L1000 602C900 590 800 562 690 540 590 520 500 515 440 475 400 446 370 420 345 425 300 440 240 440 200 415 170 395 140 355 160 325Z"/>
+          <text class="map-label" x="270" y="355">Lake Osceola</text>
+          <text class="map-road-label" x="690" y="205" transform="rotate(10 690 205)">Memorial Drive</text>
+          <text class="map-road-label" x="780" y="590" transform="rotate(10 780 590)">University Drive</text>
+          <text class="map-road-label" x="60" y="405" transform="rotate(14 60 405)">Dickinson Drive</text>
+          <text class="map-road-label" x="452" y="694" transform="rotate(-88 452 694)">Stanford Drive</text>
+          <g class="map-compass" transform="translate(930 80) rotate(45)"><path d="M0-30 10 8 0 2-10 8Z"/><text x="0" y="-36" text-anchor="middle">N</text></g>
+          {{MAP_PINS}}
+        </svg>
+        <figcaption>Schematic only, not to scale. Station positions are approximate.</figcaption>
+      </figure>
+      <ul class="station-list">{{STATION_LIST}}
+      </ul>
+    </div>
+    <p class="filter-empty" hidden>No stations of that type yet.</p>
+  </div>
+</section>
+
+<section class="section-navy coming">
+  <div class="wrap next-grid">
+    <h2>Next stop: the places around campus.</h2>
+    <div>
+      <p class="section-lede">After campus, we're bringing stations to participating cafes, restaurants and nightlife near the University of Miami, so the charger you grab after class can come with you to dinner.</p>
+      <div class="actions"><a class="btn btn-mint" href="venues.html#host"><span>Run a business near campus?</span></a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-mint next-city">
+  <div class="wrap next-grid">
+    <h2>Think we missed a spot?</h2>
+    <div>
+      <p class="section-lede">If your building should have a station, tell us. If you run the space, we'd really like to talk.</p>
+      <div class="actions">
+        <a class="btn btn-navy" href="venues.html#host"><span>Host a station</span></a>
+        <a class="btn btn-outline" href="contact.html"><span>Suggest a location</span></a>
+      </div>
+    </div>
+  </div>
+</section>

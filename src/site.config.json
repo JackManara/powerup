@@ -1,0 +1,83 @@
+{
+  "contact": {
+    "email": "powerup@gmail.com",
+    "isPlaceholder": false,
+    "location": "University of Miami, Coral Gables, FL"
+  },
+  "appUrl": null,
+  "founders": ["Jack Manara", "Kevin McDonough", "Suzanne Depasquale", "Jagger Kimmel"],
+  "pricing": {
+    "isProposed": false,
+    "hourly": 2,
+    "maxHours": 24,
+    "lateHourly": 5,
+    "lateMaxHours": 48,
+    "appMonthly": 10,
+    "studentFreeMinutes": 30
+  },
+  "stations": [
+    {
+      "id": "richter",
+      "name": "Richter Library",
+      "type": "Study",
+      "area": "Center of campus",
+      "why": "Long study sessions drain phones, and nobody wants to give up a good seat to hunt for an outlet.",
+      "x": 551,
+      "y": 253
+    },
+    {
+      "id": "shalala",
+      "name": "Shalala Student Center",
+      "type": "Student life",
+      "area": "On Lake Osceola",
+      "why": "The crossroads of campus. Students pass through between classes, so it is the easiest place to grab a charger or drop one off.",
+      "x": 456,
+      "y": 356
+    },
+    {
+      "id": "merrick",
+      "name": "Merrick Building",
+      "type": "Class",
+      "area": "Business school area",
+      "why": "Back-to-back classes leave no time to sit by an outlet. A station on the way into class solves it in seconds.",
+      "x": 652,
+      "y": 381
+    },
+    {
+      "id": "whitten",
+      "name": "Whitten Learning Center",
+      "type": "Class",
+      "area": "East campus",
+      "why": "A classroom building on the far side of campus from the lake, so students there don't have to cross campus to return a charger.",
+      "x": 775,
+      "y": 368
+    },
+    {
+      "id": "hecht",
+      "name": "Hecht Residential College",
+      "type": "Housing",
+      "area": "West of the lake",
+      "why": "Where the day starts and ends. Residents can return a charger on the way home instead of walking back across campus.",
+      "x": 131,
+      "y": 322
+    },
+    {
+      "id": "mahoney",
+      "name": "Mahoney Residential College",
+      "type": "Housing",
+      "area": "South campus",
+      "why": "Gives south campus residents a station close to home, so the network reaches both ends of a typical day.",
+      "x": 492,
+      "y": 586
+    },
+    {
+      "id": "wellness",
+      "name": "Herbert Wellness Center",
+      "type": "Fitness",
+      "area": "Dickinson Drive",
+      "why": "Music, workout tracking and the walk home all run on a phone that has already been through a full day of class.",
+      "x": 254,
+      "y": 437
+    }
+  ]
+}

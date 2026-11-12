@@ -94,7 +94,7 @@ const mapPins = cfg.stations.map((s) => `
             <circle class="pin-halo" r="20"></circle>
             <circle class="pin-dot" r="15"></circle>
             <path class="pin-bolt" d="M2-9-6.5 1.6h5.2L-2 9 6.5-1.6H1.3z"></path>
-            <text class="pin-name" y="-24">${esc(s.name.startsWith('Herbert') ? 'Wellness' : s.name.split(' ')[0])}</text>
+            <text class="pin-name" y="-24">${esc(s.name.split(' ')[0])}</text>
           </g>`).join('');
 
 const stationFilters = ['All', ...new Set(cfg.stations.map((s) => s.type))].map((t, i) =>
